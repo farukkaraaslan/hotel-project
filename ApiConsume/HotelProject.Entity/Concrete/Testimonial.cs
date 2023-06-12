@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace HotelProject.Entity.Concrete;
 
-public class Services
+public class Testimonial
 {
     public int Id { get; set; }
-    public string Icon { get; set; }
+    public string Name { get; set; }
     public string Title { get; set; }
-    public string Decription { get; set; }
+    public string Desription { get; set; }
+    public string Image { get; set; }
 }
