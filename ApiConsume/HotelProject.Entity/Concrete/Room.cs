@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelProject.Entity;
+namespace HotelProject.Entity.Concrete;
 
 public class Room
 {
