@@ -1,0 +1,17 @@
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\bin\Debug\net7.0\HotelProject.Dto.deps.json
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\bin\Debug\net7.0\HotelProject.Dto.runtimeconfig.json
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\bin\Debug\net7.0\HotelProject.Dto.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\bin\Debug\net7.0\HotelProject.Dto.pdb
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\bin\Debug\net7.0\HotelProject.Entity.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\bin\Debug\net7.0\HotelProject.Entity.pdb
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.csproj.AssemblyReference.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.AssemblyInfoInputs.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.AssemblyInfo.cs
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.csproj.CoreCompileInputs.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.csproj.CopyComplete
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\refint\HotelProject.Dto.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.pdb
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\HotelProject.Dto.genruntimeconfig.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Dto\obj\Debug\net7.0\ref\HotelProject.Dto.dll
