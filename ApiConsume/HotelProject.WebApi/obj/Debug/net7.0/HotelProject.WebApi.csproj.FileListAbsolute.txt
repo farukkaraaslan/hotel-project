@@ -80,3 +80,9 @@ C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.We
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net7.0\HotelProject.WebApi.pdb
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net7.0\HotelProject.WebApi.genruntimeconfig.cache
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\obj\Debug\net7.0\ref\HotelProject.WebApi.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

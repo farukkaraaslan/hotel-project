@@ -29,10 +29,11 @@ public class RoomsController : ControllerBase
         _roomService.Insert(room);
         return Ok();
     }
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public IActionResult DeleteRoom(int id)
     {
         var value=_roomService.GetByID(id);
+        _roomService.Delete(value);
         return Ok(value);    
     }
     [HttpPut]
