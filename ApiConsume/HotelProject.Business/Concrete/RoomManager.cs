@@ -1,21 +1,23 @@
 ﻿using HotelProject.Business.Abstract;
+using HotelProject.Core.Helpers.FileHelper;
+using HotelProject.Core.Utilities.Constants;
 using HotelProject.DataAccess.Abstract;
+using HotelProject.DataAccess.EntityFramework;
 using HotelProject.Entity.Concrete;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Localization;
 
 namespace HotelProject.Business.Concrete;
 
 public class RoomManager : IRoomService
 {
     private readonly IRoomDal roomDal;
+    private readonly IFileHelper fileHelper;
 
-    public RoomManager(IRoomDal roomDal)
+    public RoomManager(IRoomDal roomDal, IFileHelper fileHelper)
     {
         this.roomDal = roomDal;
+        this.fileHelper = fileHelper;
     }
 
     public void Delete(Room entity)
@@ -28,18 +30,37 @@ public class RoomManager : IRoomService
         return roomDal.GetAll();
     }
 
-    public Room GetByID(int id)
+    public Room GetById(int id)
     {
         return roomDal.GetByID(id);
     }
 
-    public void Insert(Room entity)
+    public void Insert(Room room)
     {
-        roomDal.Insert(entity);
-    }
 
-    public void Update(Room entity)
+        var fileResult = fileHelper.AddFile(room.ImageFile, Paths.Room.Image);
+
+        string imagePath = Path.Combine("images/room/", fileResult);
+
+        room.CoverImage = imagePath;
+
+       roomDal.Insert(room);
+    }
+    public void Update(Room room)
     {
-       roomDal.Update(entity);
+        if (room.ImageFile != null)
+        {
+
+       
+        var fileResult = fileHelper.UpdateFile( room.ImageFile, room.CoverImage, Paths.Room.Image);
+
+        string imagePath = Path.Combine("images/room/", fileResult);
+        room.CoverImage = imagePath;
+        }
+        else
+        {
+            room.CoverImage = room.CoverImage;
+        }
+        roomDal.Update(room);
     }
 }

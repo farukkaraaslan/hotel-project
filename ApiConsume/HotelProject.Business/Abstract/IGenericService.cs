@@ -12,6 +12,6 @@ public interface IGenericService<TEntity> where TEntity : class
     void Update(TEntity entity);
     void Delete(TEntity entity);
     List<TEntity> GetAll();
-    TEntity GetByID(int id);
+    TEntity GetById(int id);
 }
 

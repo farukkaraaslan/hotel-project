@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using HotelProject.Core.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,9 +7,6 @@ using System.Threading.Tasks;
 
 namespace HotelProject.Entity.Concrete;
 
-public class AppUser :IdentityUser<int>
+public class AppUser : User
 {
-    public string Name { get; set; }
-    public string Surname { get; set; }
-    public string City { get; set; }
 }

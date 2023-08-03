@@ -17,34 +17,34 @@ namespace HotelProject.WebApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult ServiceList()
+        public IActionResult GetAll()
         {
             var list = _serviceService.GetAll();
             return Ok(list);
         }
         [HttpPost]
-        public IActionResult AddService(Services service)
+        public IActionResult Add(Services service)
         {
             _serviceService.Insert(service);
             return Ok();
         }
         [HttpDelete("{id}")]
-        public IActionResult DeleteService(int id)
+        public IActionResult Delete(int id)
         {
-            var values = _serviceService.GetByID(id);
+            var values = _serviceService.GetById(id);
             _serviceService.Delete(values);
             return Ok();
         }
         [HttpPut]
-        public IActionResult UpdateService(Services service)
+        public IActionResult Update(Services service)
         {
             _serviceService.Update(service);
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetService(int id)
+        public IActionResult GetById(int id)
         {
-            var value = _serviceService.GetByID(id);
+            var value = _serviceService.GetById(id);
             return Ok(value);
         }
     }

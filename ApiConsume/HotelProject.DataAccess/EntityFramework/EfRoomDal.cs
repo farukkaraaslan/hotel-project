@@ -1,6 +1,6 @@
-﻿using HotelProject.DataAccess.Abstract;
+﻿using HotelProject.Core.Repositories;
+using HotelProject.DataAccess.Abstract;
 using HotelProject.DataAccess.Concrete;
-using HotelProject.DataAccess.Repositories;
 using HotelProject.Entity.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DataAccess.EntityFramework;
 
-public class EfRoomDal : GenericRepository<Room>, IRoomDal
+public class EfRoomDal : RepositoryBase<Room, ProjectContext>, IRoomDal
 {
     public EfRoomDal(ProjectContext context) : base(context)
     {

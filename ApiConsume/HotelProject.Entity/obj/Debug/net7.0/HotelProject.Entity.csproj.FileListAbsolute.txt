@@ -1,14 +1,5 @@
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\bin\Debug\net7.0\HotelProject.Entity.deps.json
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\bin\Debug\net7.0\HotelProject.Entity.runtimeconfig.json
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\bin\Debug\net7.0\HotelProject.Entity.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\bin\Debug\net7.0\HotelProject.Entity.pdb
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.csproj.AssemblyReference.cache
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.AssemblyInfoInputs.cache
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.AssemblyInfo.cs
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.csproj.CoreCompileInputs.cache
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\refint\HotelProject.Entity.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.pdb
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\HotelProject.Entity.genruntimeconfig.cache
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Entity\obj\Debug\net7.0\ref\HotelProject.Entity.dll

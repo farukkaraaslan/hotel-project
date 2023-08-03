@@ -1,0 +1,75 @@
+﻿@model UpdateRoomModel
+@{
+    ViewData["Title"] = "Update";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" enctype="multipart/form-data" asp-action="Update" asp-controller="Room">
+    <input type="hidden" asp-for="Id"/>
+    <div class="form-group">
+         <label>Başlık</label>
+        <input type="text" class="form-control input-default" asp-for="Title">
+    </div> 
+  
+    <div class="form-group">
+         <label>Odan Numarası</label>
+        <input type="text" class="form-control input-default" asp-for="Number">
+    </div> 
+
+    <div class="form-group">
+         <label>Ücret</label>
+        <input type="text" class="form-control input-default" asp-for="Price">
+    </div>
+
+     <div class="form-group">
+         <label>Yatak sayısı</label>
+        <input type="text" class="form-control input-default" asp-for="BedCount">
+        <span asp-validation-for="BedCount"></span>
+    </div>
+
+     <div class="form-group">
+         <label>Banyo Sayısı</label>
+        <input type="text" class="form-control input-default" asp-for="BathCount">
+    </div>
+
+    <div class="form-group">
+         <label>Wifi Durumu</label>
+        <input type="text" class="form-control input-default" asp-for="Wifi">
+    </div>
+
+    <div class="form-group">
+         <label>Açıklama</label>
+        <input type="text" class="form-control input-default" asp-for="Description">
+    </div>
+   <div class="form-group">
+        <img id="previewImage" src="http://localhost:5135/@(Model.CoverImage)" alt="Önizleme" class="img-thumbnail" width="200">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend"><span class="input-group-text">Upload</span>
+        </div>
+        <div class="custom-file">
+            <input type="file" name="ImageFile" id="coverImage" class="custom-file-input">
+            <input type="hidden" asp-for="CoverImage" class="custom-file-input">
+            <label class="custom-file-label">Choose file</label>
+      </div>
+    </div>
+
+   <button class="btn btn-primary">Kaydet</button>
+</form>
+
+<script>
+    document.getElementById('coverImage').addEventListener('change', function (event) {
+        var input = event.target;
+        var previewImage = document.getElementById("previewImage");
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                previewImage.setAttribute('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    });
+</script>

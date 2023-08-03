@@ -2,6 +2,7 @@
 using HotelProject.Entity.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 
 namespace HotelProject.WebApi.Controllers;
 
@@ -11,41 +12,44 @@ public class RoomsController : ControllerBase
 {
   private readonly IRoomService _roomService;
 
-    public RoomsController(IRoomService _roomService)
+
+    public RoomsController(IRoomService roomService)
     {
-        this._roomService = _roomService;
+        _roomService = roomService;
     }
 
-
     [HttpGet]
-    public IActionResult RoomList()
+    public IActionResult GetAll()
     {
         var values = _roomService.GetAll();
         return Ok(values);
     }
     [HttpPost]
-    public IActionResult AddRoom(Room room)
+    public IActionResult Add([FromForm] Room room)
     {
+  
         _roomService.Insert(room);
+
         return Ok();
     }
+
     [HttpDelete("{id}")]
-    public IActionResult DeleteRoom(int id)
+    public IActionResult Delete(int id)
     {
-        var value=_roomService.GetByID(id);
+        var value=_roomService.GetById(id);
         _roomService.Delete(value);
         return Ok(value);    
     }
     [HttpPut]
-    public  IActionResult UpdateRoom(Room room)
+    public IActionResult Update([FromForm] Room room)
     {
         _roomService.Update(room);
         return Ok();
     }
     [HttpGet("{id}")] 
-    public IActionResult GetRoom(int id) 
+    public IActionResult GetById(int id) 
     { 
-        var value=_roomService.GetByID(id);
+        var value=_roomService.GetById(id);
         return Ok(value);
     }
 }

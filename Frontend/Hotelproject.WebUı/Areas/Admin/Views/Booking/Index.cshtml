@@ -1,0 +1,95 @@
+﻿@model List<BookingViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+ <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4>Rezervasyonlar</h4>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Misafir</th>
+                                                <th>Giriş Tarihi</th>
+                                                <th>Çıkış Tarihi</th>
+                                                <th>Durum</th>
+                                                <th>Onayla</th>
+                                                <th>İptal Et</th>
+                                                <th>Beklet</th>
+                                                <th>Güncelle</th>
+                                                <th>Detaylar</th>
+                                            
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach(var item in Model)
+                                            {
+                                                <tr>
+                                                <th>@item.Id</th>
+                                                <td>@item.Name</td>
+                                                <td>@(((DateTime)item.CheckIn).ToString("dd/mm/yyyy"))</td>
+                                                <td>@(((DateTime)item.CheckOut).ToString("dd/mm/yyyy"))</td>
+                                                <td>
+                                                   @{string badgeClass = string.Empty;
+                                                            switch (item.Status)
+                                                            {
+                                                                case "Onaylandı":
+                                                                    badgeClass = "badge-primary";
+                                                                    break;
+                                                                case "İptal Edildi":
+                                                                    badgeClass = "badge-danger";
+                                                                    break;
+                                                                case "Beklemede":
+                                                                    badgeClass = "badge-warning";
+                                                                    break;
+                                                                case "Güncelle":
+                                                                    badgeClass = "badge-info";
+                                                                    break;
+                                                                default:
+                                                                    badgeClass = "badge-secondary";
+                                                                    break;
+                                                            }
+                                                        }
+                                                        <span class="badge px-2 @badgeClass">@item.Status</span>
+                                                    </td>
+                                               
+                                                  <td>
+                                                        <form method="post" asp-action="UpdateStatus" asp-route-id="@item.Id">
+                                                            <input type="hidden" name="newStatus" value="Onaylandı" />
+                                                            <button type="submit" class="btn btn-outline-primary">Onayla</button>
+                                                        </form>
+                                                    </td>
+                                                    <td>
+                                                        <form method="post" asp-action="UpdateStatus" asp-route-id="@item.Id">
+                                                            <input type="hidden" name="newStatus" value="İptal Edildi" />
+                                                            <button type="submit" class="btn btn-outline-danger">İptal Et</button>
+                                                        </form>
+                                                    </td>
+                                                    <td>
+                                                        <form method="post" asp-action="UpdateStatus" asp-route-id="@item.Id">
+                                                            <input type="hidden" name="newStatus" value="Beklemede" />
+                                                            <button type="submit" class="btn btn-outline-warning">Beklet</button>
+                                                        </form>
+                                                    </td>
+                                                    <td>
+                                                        <form method="post" asp-action="UpdateStatus" asp-route-id="@item.Id">
+                                                            <input type="hidden" name="newStatus" value="Güncelle" />
+                                                            <button type="submit" class="btn btn-outline-info">Güncelle</button>
+                                                        </form>
+                                                    </td>
+                                                    <td><a href="#" class="btn btn-outline-dark">Detaylar</a></td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+

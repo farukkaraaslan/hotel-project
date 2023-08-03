@@ -1,0 +1,37 @@
+﻿@model List<StaffViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<a href="/admin/staff/add/" class=" btn mb-1 btn-rounded btn-outline-info"> Yeni Personel Ekle</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Resim</th>
+        <th>Personel Adı</th>
+        <th>Personel Ünvan</th>
+        <th>Sosyal Medya 1</th>
+        <th>Sosyal Medya 2</th>
+        <th>Sosyal Medya 3</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td><img style="width:50px;height:50px" src="http://localhost:5135/@(item.Image)" /></td>
+            <td>@item.Name</td>
+            <td>@item.Title</td>
+            <td>@item.SocialMedia1</td>
+            <td>@item.SocialMedia2</td>
+            <td>@item.SocialMedia3</td>
+            <td> <a href="/admin/staff/delete/@item.Id" class="btn mb-1 btn-rounded btn-outline-danger"> Sil</a></td>
+            <td><a href="/admin/staff/Update/@item.Id" class="btn mb-1 btn-rounded btn-outline-success"> GÜncelle</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark"> Deteylar</a></td>
+        </tr>
+    }
+</table>
+

@@ -28,7 +28,7 @@ public class ServiceManager : IServiceService
         return serviceDal.GetAll();
     }
 
-    public Services GetByID(int id)
+    public Services GetById(int id)
     {
       return  serviceDal.GetByID(id);
     }
@@ -40,6 +40,6 @@ public class ServiceManager : IServiceService
 
     public void Update(Services entity)
     {
-       serviceDal.Update(entity);
+        serviceDal.Update(entity);
     }
 }

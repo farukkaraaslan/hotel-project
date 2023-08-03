@@ -1,17 +1,5 @@
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\bin\Debug\net7.0\HotelProject.DataAccess.deps.json
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\bin\Debug\net7.0\HotelProject.DataAccess.runtimeconfig.json
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\bin\Debug\net7.0\HotelProject.DataAccess.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\bin\Debug\net7.0\HotelProject.DataAccess.pdb
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\bin\Debug\net7.0\HotelProject.Entity.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\bin\Debug\net7.0\HotelProject.Entity.pdb
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.csproj.AssemblyReference.cache
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.AssemblyInfoInputs.cache
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.AssemblyInfo.cs
 C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.csproj.CopyComplete
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\refint\HotelProject.DataAccess.dll
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.pdb
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\HotelProject.DataAccess.genruntimeconfig.cache
-C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.DataAccess\obj\Debug\net7.0\ref\HotelProject.DataAccess.dll

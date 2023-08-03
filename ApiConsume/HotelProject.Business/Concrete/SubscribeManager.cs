@@ -29,7 +29,7 @@ public class SubscribeManager : ISubscribeService
         return subscribeDal.GetAll();   
     }
 
-    public Subscribe GetByID(int id)
+    public Subscribe GetById(int id)
     {
        return subscribeDal.GetByID(id);
     }

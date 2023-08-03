@@ -4,6 +4,103 @@
     "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.DataAccess\\HotelProject.DataAccess.csproj": {}
   },
   "projects": {
+    "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj",
+        "projectName": "HotelProject.Core",
+        "projectPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj",
+        "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Castle.Core": {
+              "target": "Package",
+              "version": "[5.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.2, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.31.0, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.DataAccess\\HotelProject.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,6 +125,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj": {
+                "projectPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj"
+              },
               "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Entity\\HotelProject.Entity.csproj": {
                 "projectPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Entity\\HotelProject.Entity.csproj"
               }
@@ -51,6 +151,14 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -116,7 +224,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj": {
+                "projectPath": "C:\\Users\\faruk\\Desktop\\EGITIM\\C#_Eğitim\\HotelProject\\ApiConsume\\HotelProject.Core\\HotelProject.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -136,6 +248,14 @@
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[7.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

@@ -1,0 +1,28 @@
+﻿@model AddServiceModel
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+   
+    <div class="form-group">
+        <label>Icon</label>
+        <input type="text" class="form-control input-default" asp-for="Icon">
+          <span asp-validation-for="Icon" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+         <label>Başlık</label>
+        <input type="text" class="form-control input-default" asp-for="Title">
+          <span asp-validation-for="Title" class="text-danger"></span>
+    </div> 
+    <div class="form-group">
+         <label>Açıklama</label>
+        <input type="text" class="form-control input-default" asp-for="Decription">
+          <span asp-validation-for="Decription" class="text-danger"></span>
+    </div>
+
+   <button class="btn btn-primary">Kaydet</button>
+</form>
+
+

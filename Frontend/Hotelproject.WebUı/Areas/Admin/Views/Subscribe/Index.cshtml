@@ -1,0 +1,29 @@
+﻿@model List<SubscribeViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<a href="/admin/subscribe/add/" class=" btn mb-1 btn-rounded btn-outline-info"> Yeni Takipçi Ekle</a>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Mail</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Mail</td>
+            <td> <a href="/admin/subscribe/delete/@item.Id" class="btn mb-1 btn-rounded btn-outline-danger"> Sil</a></td>
+            <td><a href="/admin/subscribe/update/@item.Id" class="btn mb-1 btn-rounded btn-outline-success"> GÜncelle</a></td>
+            <td><a href="#" class="btn mb-1 btn-rounded btn-outline-dark"> Deteylar</a></td>
+        </tr>
+    }
+</table>
+
+

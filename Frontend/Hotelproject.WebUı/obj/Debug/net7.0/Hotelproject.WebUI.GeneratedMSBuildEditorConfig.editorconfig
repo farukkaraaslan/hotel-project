@@ -1,0 +1,217 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Hotelproject.WebUI
+build_property.RootNamespace = Hotelproject.WebUI
+build_property.ProjectDir = C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Room/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9vbVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Room/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9vbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Room/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9vbVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Service/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Service/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Service/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VydmljZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Shared/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Shared/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9IZWFkUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Shared/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Shared/_ScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Shared/_SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9TaWRlYmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Staff/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhZmZcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhZmZcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Staff/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhZmZcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Subscribe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3Vic2NyaWJlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Testimonial/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Testimonial/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/Testimonial/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVGVzdGltb25pYWxcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Booking/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Contact/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Home/_SubscribePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU3Vic2NyaWJlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_AboutusPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Fib3V0dXNQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_BookingCoverPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Jvb2tpbmdDb3ZlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_ContactCoverPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0NvbnRhY3RDb3ZlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_FooterPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0Zvb3RlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_HeaderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_HeadPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0hlYWRQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_RoomsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Jvb21zUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_ScriptsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NjcmlwdHNQYXJ0aWFsXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_ServicesPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NlcnZpY2VzUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_SliderPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1NsaWRlclBhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_StaffPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1N0YWZmUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Components/_TestimonialsPartial/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX1Rlc3RpbW9uaWFsc1BhcnRpYWxcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/UserLayout/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJMYXlvdXRcX1VzZXJMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/faruk/Desktop/EGITIM/C\#_Eğitim/HotelProject/Frontend/Hotelproject.WebUı/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ymijzz2x5s

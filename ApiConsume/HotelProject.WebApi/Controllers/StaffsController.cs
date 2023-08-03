@@ -1,4 +1,5 @@
 ﻿using HotelProject.Business.Abstract;
+using HotelProject.Core.Helpers.FileHelper;
 using HotelProject.Entity.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,42 +10,42 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class StaffsController : ControllerBase
     {
-        private readonly IStaffService _staffService;
+        private readonly IStaffService staffService;
 
         public StaffsController(IStaffService staffService)
         {
-            _staffService = staffService;
+            this.staffService = staffService;
         }
 
         [HttpGet]
-        public IActionResult StaffList()
+        public IActionResult GetAll()
         {
-            var list =_staffService.GetAll();
+            var list =staffService.GetAll();
             return Ok(list);
         }
         [HttpPost]
-        public IActionResult AddStaff(Staff staff)
+        public IActionResult Add([FromForm] Staff staff)
         {
-            _staffService.Insert(staff);
+            staffService.Insert(staff);
             return Ok();
         }
         [HttpDelete("{id}")]
-        public IActionResult DeleteStaff(int id)
+        public IActionResult Delete(int id)
         {
-            var values = _staffService.GetByID(id);
-            _staffService.Delete(values);
-            return Ok();
+            var value = staffService.GetById(id);
+            staffService.Delete(value);
+            return Ok(value);
         }
         [HttpPut]
-        public IActionResult UpdateStaff(Staff staff)
+        public IActionResult Update([FromForm] Staff staff)
         {
-            _staffService.Update(staff);
+            staffService.Update(staff);
             return Ok();
         }
         [HttpGet("{id}")]
-        public IActionResult GetStaff(int id)
+        public IActionResult GetById(int id)
         {
-            var value =_staffService.GetByID(id);
+            var value = staffService.GetById(id);
             return Ok(value);
         }
     }

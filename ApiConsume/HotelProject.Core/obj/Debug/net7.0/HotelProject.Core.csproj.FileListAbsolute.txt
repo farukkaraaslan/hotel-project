@@ -1,0 +1,5 @@
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Core\obj\Debug\net7.0\HotelProject.Core.csproj.AssemblyReference.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Core\obj\Debug\net7.0\HotelProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Core\obj\Debug\net7.0\HotelProject.Core.AssemblyInfoInputs.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Core\obj\Debug\net7.0\HotelProject.Core.AssemblyInfo.cs
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\ApiConsume\HotelProject.Core\obj\Debug\net7.0\HotelProject.Core.csproj.CoreCompileInputs.cache

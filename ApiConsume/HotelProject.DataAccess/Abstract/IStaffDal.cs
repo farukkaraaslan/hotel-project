@@ -1,4 +1,5 @@
-﻿using HotelProject.Entity.Concrete;
+﻿using HotelProject.Core.Repositories;
+using HotelProject.Entity.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,6 +8,6 @@ using System.Threading.Tasks;
 
 namespace HotelProject.DataAccess.Abstract;
 
-public interface IStaffDal:IGenericDal<Staff>
+public interface IStaffDal: IRepositoryBase<Staff>
 {
 }

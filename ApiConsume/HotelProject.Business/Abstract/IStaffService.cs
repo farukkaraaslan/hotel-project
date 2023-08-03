@@ -7,6 +7,11 @@ using System.Threading.Tasks;
 
 namespace HotelProject.Business.Abstract;
 
-public interface IStaffService:IGenericService<Staff>
+public interface IStaffService
 {
+    void Insert(Staff staff);
+    void Update(Staff staff);
+    void Delete(Staff staff);
+    List<Staff> GetAll();
+    Staff GetById(int id);
 }

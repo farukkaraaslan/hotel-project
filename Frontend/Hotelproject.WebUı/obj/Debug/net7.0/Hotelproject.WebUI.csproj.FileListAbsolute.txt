@@ -1,0 +1,8 @@
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.csproj.AssemblyReference.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.AssemblyInfoInputs.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.AssemblyInfo.cs
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.csproj.CoreCompileInputs.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.RazorAssemblyInfo.cache
+C:\Users\faruk\Desktop\EGITIM\C#_Eğitim\HotelProject\Frontend\Hotelproject.WebUı\obj\Debug\net7.0\Hotelproject.WebUI.RazorAssemblyInfo.cs

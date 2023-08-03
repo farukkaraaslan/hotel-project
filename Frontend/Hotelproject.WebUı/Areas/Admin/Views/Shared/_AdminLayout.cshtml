@@ -1,0 +1,53 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+    <!--Header Partial-->
+@await Html.PartialAsync("_HeadPartial")
+
+<body>
+    <div id="preloader">
+        <div class="loader">
+            <svg class="circular" viewBox="25 25 50 50">
+                <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="3" stroke-miterlimit="10" />
+            </svg>
+        </div>
+    </div>
+
+    <!--Main Wrapper-->
+    <div id="main-wrapper">
+        <!-- Navbar Partial-->
+        @await Html.PartialAsync("_NavbarPartial") 
+        <!-- Sidebar Partial-->
+        @await Html.PartialAsync("_SidebarPartial")
+
+        <!--Content Body-->
+        <div class="content-body">
+            <div class="container-fluid mt-3">
+                <div class="row">
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="card ">
+                            <div class="card-body">
+                                @RenderBody()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Content Body End-->
+
+        <!--Footer Partial-->
+        @await Html.PartialAsync("_FooterPartial")
+ 
+    </div>
+    <!--Main Wrapper End-->
+
+    <!--Scripts Partial-->
+
+    @await Html.PartialAsync("_ScriptsPartial")
+ 
+</body>
+
+</html>
